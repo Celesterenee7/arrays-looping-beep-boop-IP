@@ -61,7 +61,8 @@ button {
     padding-top: 80px !important;
 }
 
-.conatiner, li {
+.conatiner,
+li {
     font-size: 18px;
 }
 
@@ -118,7 +119,7 @@ button {
 }
 
 .sidebar {
-    background-color: #C6C7C7;
+    background-color: #B3B4B4;
     color: white;
     width: 25%;
     float: right;
@@ -136,7 +137,7 @@ button {
 }
 
 .sidebar p {
-    font-size: 13px;
+    font-size: 18px;
     padding-top: 5px;
     text-align: center;
 }
