@@ -3,17 +3,20 @@
 #### By Celeste Renee Morton
 ## Description
 This application will take a number from a user and return a range of numbers from 1 to the chosen number with the following exceptions:
-* Numbers divisible by 3 are replaced with "beep"
-* Numbers divisible by 5 are replaced with "boop"
-* Numbers divisible by 15 are replaced with "beepboop"
+* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+* Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
+*The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+*The number 21 should be replaced with "Boop".
+*The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 ## Specifications
 * It can count up to the provided number:
   * Example Input: 4
-  * Example Output: [1,2,beep,4]
-* It can display "beep" when any input number is divisible by 3
-* It can display "boop" when any input number is divisible by 5
-* It can display "beepboop" when any input number is divisible by 15
-* It can display new results when a new number is added over and over again
+  * Example Output: [1,2,3,4]
+* It can display "beep" when any input number contains a 1
+* It can display "boop" when any input number contains a 2
+* It can display "I'm sorry, Dave. I'm afraid I can't do that" when any input number contains a 3
 ## Setup/Installation Requirements
 * Clone this repository
 * Open in your preferred editor
