@@ -5,6 +5,7 @@ var twos = ["2", "12", "20", "21", "22", "24", "25", "26", "27", "28", "29"];
 var threes = ["3", "13", "23"]
 var everythingElse = ["4", "5", "6", "7", "8", "9"]
 
+
 var beepBoop = function (number) {
     for (var number = 1; number <= 30; number++) {
         var result = "";
@@ -22,7 +23,7 @@ var beepBoop = function (number) {
         }
         if (number === everythingElse); {
             result = everythingElse;
-            console.log(result || number);
+            console.log(everythingElse);
         }
 
     }
@@ -38,15 +39,14 @@ $(document).ready(function () {
         var result = beepBoop(number);
         $("#result").text(result);
 
-        if ((number === 1) || (number === ones)); {
-            result = "Beep";
-            console.log(result || number);
+        if ((number === 1) || (number === ones)) {
+            result = ("Beep");
+        } else if ((number === 2) || (number === twos)) {
+            result = ("Boop");
+        } else if ((number === 3) || (number === threes)) {
+            result = ("I'm sorry, Dave. I'm afraid I can't do that.");
         }
 
-        if ((number === 2) || (number === twos)); {
-            result = "Boop";
-            console.log(result || number);
-        }
 
         $("#final-result").empty().append(result);
         $("#result").show();
