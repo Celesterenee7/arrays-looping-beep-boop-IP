@@ -13,3 +13,23 @@
     margin-right: 55px;
     color: white;
 }
+
+.banner img {
+    width: 5%;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+.container {
+    padding-top: 80px !important;
+}
+
+.sidebar {
+    background-color: #C6C7C7;
+    color: white;
+    width: 25%;
+    float: right;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
