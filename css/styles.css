@@ -1,4 +1,6 @@
-* {}
+* {
+    font-family: 'Neuton', serif;
+}
 
 a {
     color: black;
@@ -24,9 +26,9 @@ button {
 
 .banner a {
     cursor: pointer;
-    font-size: 35px;
+    font-size: 45px;
     float: right;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 55px;
 }
 
@@ -57,6 +59,14 @@ button {
 
 .container {
     padding-top: 80px !important;
+}
+
+.conatiner, li {
+    font-size: 18px;
+}
+
+.container p {
+    font-size: 25px;
 }
 
 .footer-social i {
