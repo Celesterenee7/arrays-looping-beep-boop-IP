@@ -9,7 +9,7 @@ var everythingElse = ["4", "5", "6", "7", "8", "9"]
 var beepBoop = function (number) {
     for (var number = 1; number <= 30; number++) {
         var result = "";
-        if ((number === 1) || (number === ones)); {
+        if ((number === ones) || (number === ones)); {
             result = "Beep";
             console.log(result || number);
         }
@@ -45,6 +45,8 @@ $(document).ready(function () {
             result = ("Boop");
         } else if ((number === 3) || (number === threes)) {
             result = ("I'm sorry, Dave. I'm afraid I can't do that.");
+        } else if (number === everythingElse) {
+            result = everythingElse
         }
 
 
