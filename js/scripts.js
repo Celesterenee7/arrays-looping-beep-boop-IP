@@ -22,6 +22,10 @@ $(document).ready(function () {
         var result = pingPong(number);
         $("#result").text(result);
 
+        if (number % 3 === 0) {
+            result = ("Ping");
+        }
+
 
         $("#final-result").empty().append(result);
         $("#result").show();
