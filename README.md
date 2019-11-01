@@ -7,9 +7,9 @@ This application will take a number from a user and return a range of numbers fr
 * Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 * Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
-*The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-*The number 21 should be replaced with "Boop".
-*The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+* The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+* The number 21 should be replaced with "Boop".
+* The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 ## Specifications
 * It can count up to the provided number:
   * Example Input: 4
