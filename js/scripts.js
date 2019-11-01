@@ -6,6 +6,9 @@ var pingPong = function (number) {
         if (number % 3 === 0) {
             result = "Ping";
         }
+        if (number % 5 === 0) {
+            result += "Pong";
+        }
         console.log(result || number);
     }
 }
