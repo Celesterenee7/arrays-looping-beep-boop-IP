@@ -1,17 +1,36 @@
 // Business logic goes here:
 
-var beepBoop = function (number) {
-    for (var number = 1; number <= 30; number++) {
-        var result = "";
-        if (number % 3 === 0) {
-            result = "Beep";
+public class Test {
+    public static void main(String...args) {
+        int num = 101;
+        for (int i = 1; i < num; i++) {
+            boolean printed = false;
+
+            if (i % 3 == 0) {
+                printed = true;
+                System.out.print("Fizz");
+            }
+            if (i % 5 == 0) {
+                printed = true;
+                System.out.print("Buzz");
+            }
+
+            if (Integer.toString(i).indexOf("3") != -1) {
+                printed = true;
+                System.out.print("Bizz");
+            }
+            if (Integer.toString(i).indexOf("5") != -1) {
+                printed = true;
+                System.out.print("Fuzz");
+            }
+
+            if (printed == false) System.out.print(i);
+            System.out.println();
         }
-        if (number % 5 === 0) {
-            result += "Boop";
-        }
-        console.log(result || number);
     }
 }
+
+
 
 // Front end logic goes here:
 
@@ -22,11 +41,6 @@ $(document).ready(function () {
         var result = beepBoop(number);
         $("#result").text(result);
 
-        for (var number = 1; number <= 30; number++, result = "") {
-            if (!(number % 3)) result += "Beep";
-            if (!(number % 5)) result += "Boop";
-            console.log(result || number);
-        }
 
 
         $("#final-result").empty().append(result);
