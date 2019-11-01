@@ -1,9 +1,12 @@
 // Business logic goes here:
 
+var ones = ["1", "11", "14", "15", "16", "17", "18", "19"];
+var twos = ["2", "12", "20", "21", "22", "24", "25", "26", "27", "28", "29"]
+
 var beepBoop = function (number) {
     for (var number = 1; number <= 30; number++) {
         var result = "";
-        if (number === 1) {
+        if ((number === 1) || (number === 11) || (number === 12)) {
             result = "Beep";
         }
         if (number === 2) {
