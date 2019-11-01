@@ -1,32 +1,18 @@
 // Business logic goes here:
 
-public class Test {
-    public static void main(String...args) {
-        int num = 101;
-        for (int i = 1; i < num; i++) {
-            boolean printed = false;
-
-            if (i % 3 == 0) {
-                printed = true;
-                System.out.print("Fizz");
-            }
-            if (i % 5 == 0) {
-                printed = true;
-                System.out.print("Buzz");
-            }
-
-            if (Integer.toString(i).indexOf("3") != -1) {
-                printed = true;
-                System.out.print("Bizz");
-            }
-            if (Integer.toString(i).indexOf("5") != -1) {
-                printed = true;
-                System.out.print("Fuzz");
-            }
-
-            if (printed == false) System.out.print(i);
-            System.out.println();
+var beepBoop = function (number) {
+    for (var number = 1; number <= 30; number++) {
+        var result = "";
+        if (number === 1) {
+            result = "Beep";
         }
+        if (number === 2) {
+            result = "Boop";
+        }
+        if (number === 3) {
+            result = "I'm sorry, Dave. I'm afraid I can't do that."
+        }
+        console.log(result || number);
     }
 }
 
