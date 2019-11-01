@@ -1,18 +1,18 @@
 # Arrays & Looping Independent Project
-#### Ping Pong Web Application for Epicodus, 11/01/19
+#### Beep Boop Web Application for Epicodus, 11/01/19
 #### By Celeste Renee Morton
 ## Description
 This application will take a number from a user and return a range of numbers from 1 to the chosen number with the following exceptions:
-* Numbers divisible by 3 are replaced with "ping"
-* Numbers divisible by 5 are replaced with "pong"
-* Numbers divisible by 15 are replaced with "pingpong"
+* Numbers divisible by 3 are replaced with "beep"
+* Numbers divisible by 5 are replaced with "boop"
+* Numbers divisible by 15 are replaced with "beepboop"
 ## Specifications
 * It can count up to the provided number:
   * Example Input: 4
-  * Example Output: [1,2,Ping,4]
-* It can display "ping" when any input number is divisible by 3
-* It can display "pong" when any input number is divisible by 5
-* It can display "pingpong" when any input number is divisible by 15
+  * Example Output: [1,2,beep,4]
+* It can display "beep" when any input number is divisible by 3
+* It can display "boop" when any input number is divisible by 5
+* It can display "beepboop" when any input number is divisible by 15
 * It can display new results when a new number is added over and over again
 ## Setup/Installation Requirements
 * Clone this repository
