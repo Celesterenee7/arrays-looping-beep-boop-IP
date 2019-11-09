@@ -4,11 +4,11 @@ function beepBoop(number) {
     var beepArray = []
 
     for (var i = 0; i <= number; i++) {
-        if ([i].toString().includes("3")) {
-            beepArray.push("I'm sorry Dave, I'm afraid I can't do that")
-        } else if ([i].toString().includes("2")) {
+        if (i.toString().includes(3)) {
+            beepArray.push("I'm sorry Dave, I'm afraid I can't do that....")
+        } else if (i.toString().includes(2)) {
             beepArray.push("Boop!")
-        } else if ([i].toString().includes("1")) {
+        } else if (i.toString().includes(1)) {
             beepArray.push("Beep!")
         } else {
             beepArray.push(i + " ");
@@ -25,7 +25,7 @@ $(document).ready(function () {
         event.preventDefault();
         var number = parseInt($("input#number").val());
         var result = beepBoop(number);
-        $("#result").append("<li>" + result + "</li>");
+        $("#result").append("<li class='result'>" + "  " + result + "</li>");
 
         $("#result").show(result);
 
