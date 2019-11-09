@@ -1,7 +1,7 @@
-// Business logic goes here:
+// Back-end logic goes here:
 
 function beepBoop(number) {
-    var beepArray = []
+    var beepArray = [];
 
     for (var i = 0; i <= number; i++) {
         if (i.toString().includes(3)) {
@@ -18,15 +18,15 @@ function beepBoop(number) {
     return beepArray;
 }
 
-// Front end logic goes here:
+// Front-end logic goes here:
 
 $(document).ready(function () {
     $("form#beep-boop").submit(function (event) {
         event.preventDefault();
         var number = parseInt($("input#number").val());
         var result = beepBoop(number);
-        $("#result").append("<li class='result'>" + "  " + result + "</li>");
 
+        $("#result").append("<li class='result'>" + "  " + result + "</li>");
         $("#result").show(result);
 
     });
