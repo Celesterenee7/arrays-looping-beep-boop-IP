@@ -1,4 +1,4 @@
-// Back-end logic goes here:
+// Back-end logic goes here: 
 
 function beepBoop(number) {
     var beepArray = [];
@@ -18,7 +18,7 @@ function beepBoop(number) {
     return beepArray.join(" . ");
 }
 
-// Front-end logic goes here:
+// Front-end logic goes here: 
 
 $(document).ready(function () {
     $("form#beep-boop").submit(function (event) {
