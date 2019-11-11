@@ -15,7 +15,7 @@ function beepBoop(number) {
         }
         console.log(beepArray);
     }
-    return beepArray;
+    return beepArray.join("");
 }
 
 // Front-end logic goes here:
