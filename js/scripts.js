@@ -15,7 +15,7 @@ function beepBoop(number) {
         }
         console.log(beepArray);
     }
-    return beepArray.join("");
+    return beepArray.join(" . ");
 }
 
 // Front-end logic goes here:
@@ -26,7 +26,7 @@ $(document).ready(function () {
         var number = parseInt($("input#number").val());
         var result = beepBoop(number);
 
-        $("#result").append("<li class='result'>" + "  " + result + "</li>");
+        $("#result").append("<p class='result'>" + "  " + result + "</p>");
         $("#result").show(result);
 
     });

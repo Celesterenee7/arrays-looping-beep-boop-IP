@@ -18,6 +18,10 @@ button {
     transition: all 0.3s ease-in-out !important;
 }
 
+label {
+    font-size: 20px !important;
+}
+
 
 .banner {
     background-color: #02986F !important;
@@ -64,10 +68,11 @@ button {
 .conatiner,
 li {
     font-size: 18px;
+    padding-top: 7px;
 }
 
 .container p {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .footer-social i {
@@ -122,7 +127,7 @@ li {
     padding-top: 40px;
     padding-right: 50px;
     padding-left: 50px;
-    height: 600px;
+    height: 800px;
 }
 
 .sidebar h3 {
@@ -133,7 +138,7 @@ li {
 }
 
 .sidebar p {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 5px;
     text-align: center;
 }
@@ -142,7 +147,8 @@ li {
     border-top: 1px solid #777877;
 }
 
-.result {
+.result,
+p {
     letter-spacing: 2px;
     font-weight: 600;
 }
