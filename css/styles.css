@@ -20,6 +20,7 @@ button {
 
 label {
     font-size: 20px !important;
+    padding-top: 10px;
 }
 
 
@@ -92,6 +93,10 @@ li {
     display: inline !important;
 }
 
+.nedry {
+    background: url('https://media.giphy.com/media/owRSsSHHoVYFa/giphy.gif') 0 0;
+}
+
 .rollover-underline-black {
     position: relative;
     color: #000;
@@ -132,6 +137,7 @@ li {
 
 .sidebar h3 {
     text-align: center;
+    padding-top: 50px;
     padding-bottom: 20px;
     font-weight: 600;
     font-style: italic;

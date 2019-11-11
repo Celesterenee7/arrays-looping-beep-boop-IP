@@ -5,7 +5,7 @@ function beepBoop(number) {
 
     for (var i = 0; i <= number; i++) {
         if (i.toString().includes(3)) {
-            beepArray.push("I'm sorry Dave, I'm afraid I can't do that....")
+            beepArray.push("I'm sorry, Dave. I'm afraid I can't do that...")
         } else if (i.toString().includes(2)) {
             beepArray.push("Boop!")
         } else if (i.toString().includes(1)) {
