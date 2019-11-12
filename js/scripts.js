@@ -13,7 +13,6 @@ function beepBoop(number) {
         } else {
             beepArray.push(i + " ");
         }
-        console.log(beepArray);
     }
     return beepArray.join(" . ");
 }
