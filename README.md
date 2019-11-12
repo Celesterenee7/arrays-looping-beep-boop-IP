@@ -20,10 +20,10 @@ This application will take a number from a user and return a range of numbers fr
 * It can display "Boop!" when any input number contains a 2:
   * Example Input: 2
   * Example Output: Boop!
-* It can display "I'm sorry, Dave. I'm afraid I can't do that" when any input number contains a 3.
+* It can display "I'm sorry, Dave. I'm afraid I can't do that" when any input number contains a 3:
   * Example Input: 13
   * Example Output: [Beep, Boop, I'm sorry, Dave. I'm afraid I can't do that, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that.].
-* A user should be able to enter a new number and see new results over and over again.
+* A user should be able to enter a new number and see new results over and over again:
   * Example Input: Add 6 after submitting any number originally
   * Example Output: [Beep, Boop, I'm sorry, Dave. I'm afraid I can't do that, 4, 5, 6]
 ## Setup/Installation Requirements
